@@ -22,7 +22,7 @@ Website ini memiliki dua sisi utama:
 
 ---
 
-## ⚙️ Teknologi yang Digunakan
+## 🔧 Development Environment & Tools
 - **Frontend:** HTML, CSS, JavaScript  
 - **Backend:** PHP  
 - **Database:** MySQL  
