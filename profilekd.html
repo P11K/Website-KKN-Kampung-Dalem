@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profil Kelurahan Kampung Dalem</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Custom Style -->
+    <style>
+        body {
+            background-color: #f4f4f9;
+            font-family: 'Arial', sans-serif;
+        }
+
+        h2 {
+            color: #007bff;
+            border-bottom: 2px solid #007bff;
+            padding-bottom: 5px;
+            margin-bottom: 15px;
+        }
+
+        .card:hover {
+            transform: translateY(-10px);
+            transition: transform 0.3s;
+        }
+
+        .custom-bg {
+            background-color: #f4f4f9;
+        }
+
+        #mainNav {
+            padding-top: 1rem;
+            padding-bottom: 1rem;
+            background-color: rgba(0, 0, 0, 0.8) !important;
+            /* Hitam dengan opacity 80% */
+            transition: background-color 0.3s;
+        }
+
+        .custom-footer {
+            background-color: #343a40;
+            padding: 30px 0;
+            color: white;
+        }
+
+        .custom-footer .footer-link {
+            color: #f8f9fa;
+            text-decoration: none;
+            transition: color 0.3s;
+        }
+
+        .custom-footer .footer-link:hover {
+            color: #ffc107;
+            /* Warna saat hover */
+        }
+
+        .custom-footer .social-links a {
+            margin-right: 15px;
+            font-size: 24px;
+            transition: color 0.3s;
+        }
+
+        .custom-footer .social-links a:hover {
+            color: #ffc107;
+            /* Warna hover untuk ikon media sosial */
+        }
+
+        .card-img-top {
+            height: 300px;
+            object-fit: cover;
+            border-bottom: 2px solid #007bff;
+        }
+
+        /* Navbar Animation */
+        .nav-link {
+            position: relative;
+            transition: color 0.3s;
+        }
+
+        .nav-link:hover {
+            color: #ffc107 !important;
+        }
+
+        .nav-link.active {
+            color: #ffc107 !important;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Navigation Bar -->
+    <nav class="navbar navbar-expand-lg fixed-top" style="background-color: #343a40;" id="mainNav">
+        <div class="container">
+            <a class="navbar-brand text-white" href="#page-top">
+                <img src="assets/img/kota.png" style="width: 50px; height: auto;" alt="Logo" class="logo" />
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive"
+                aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link text-white" href="index.php">Home</a></li>
+                    <li class="nav-item"><a class="nav-link text-white" href="#gambaran-umum">Gambaran Umum</a></li>
+                    <li class="nav-item"><a class="nav-link text-white" href="#jumlah-penduduk">Jumlah Penduduk</a></li>
+                    <li class="nav-item"><a class="nav-link text-white" href="#ekonomi-masyarakat">Ekonomi
+                            Masyarakat</a></li>
+                    <li class="nav-item"><a class="nav-link text-white" href="#profil-pejabat">Profil Pejabat</a></li>
+                    <li class="nav-item"><a class="nav-link text-white" href="#struktur-organisasi">Struktur
+                            Organisasi</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+
+    <!-- Header Section -->
+    <header class="custom-bg text-black text-center py-5" style="margin-top: 100px;">
+        <h1>Profil Kelurahan Kampung Dalem</h1>
+    </header>
+
+    <!-- Main Content -->
+    <div class="container my-5">
+        <!-- Gambaran Umum -->
+        <section id="gambaran-umum" class="mb-5">
+            <h2>Gambaran Umum</h2>
+            <p>Kelurahan Kampung Dalem terletak di Kecamatan Kota, Kota Kediri, Provinsi Jawa Timur. Kelurahan ini
+                dikenal dengan potensi ekonomi dan budaya yang kaya. Pada tahun 2023, perkembangan penduduk dan ekonomi
+                masyarakat menunjukkan dinamika yang signifikan.</p>
+        </section>
+
+        <!-- Jumlah Penduduk -->
+        <section id="jumlah-penduduk" class="mb-5">
+            <h2>Jumlah Penduduk</h2>
+            <ul class="list-group">
+                <li class="list-group-item">Laki-laki: 1446 orang</li>
+                <li class="list-group-item">Perempuan: 1401 orang</li>
+                <li class="list-group-item">Total: 2847 orang</li>
+                <li class="list-group-item">Jumlah Kepala Keluarga: 968 KK</li>
+            </ul>
+        </section>
+
+        <!-- Ekonomi Masyarakat -->
+        <section id="ekonomi-masyarakat" class="mb-5">
+            <h2>Ekonomi Masyarakat</h2>
+            <ul class="list-group">
+                <li class="list-group-item">Pengangguran: 176 orang</li>
+                <li class="list-group-item">Prasejahtera: 183 keluarga</li>
+                <li class="list-group-item">Sejahtera 1: 358 keluarga</li>
+                <li class="list-group-item">Sejahtera 2: 243 keluarga</li>
+                <li class="list-group-item">Sejahtera 3 Plus: 58 keluarga</li>
+            </ul>
+        </section>
+
+        <!-- Profil Pejabat -->
+        <section id="profil-pejabat" class="mb-5">
+            <h2>Profil Pejabat</h2>
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="card shadow-sm mb-4">
+                        <img src="assets/img/team/1.jpg" class="card-img-top" alt="Foto Ika Ardiyanto">
+                        <div class="card-body">
+                            <h5 class="card-title">Ika Ardiyanto, SE, MSA</h5>
+                            <h6 class="card-subtitle mb-2 text-muted">Lurah</h6>
+                            <p class="card-text">Bertanggung jawab atas administrasi dan pelayanan di Kelurahan Kampung
+                                Dalem.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="card shadow-sm mb-4">
+                        <img src="assets/img/team/3.jpg" class="card-img-top" alt="Foto Anang Pribadi">
+                        <div class="card-body">
+                            <h5 class="card-title">Anang Pribadi, SH</h5>
+                            <h6 class="card-subtitle mb-2 text-muted">Kasi Pemerintahan</h6>
+                            <p class="card-text">Membantu lurah dalam tugas administrasi pemerintahan.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <!-- Struktur Organisasi -->
+        <section id="struktur-organisasi" class="mb-5">
+            <h2>Struktur Organisasi</h2>
+            <div class="row text-center">
+                <div class="col-md-4">
+                    <div class="card shadow-sm mb-4">
+                        <div class="card-body">
+                            <h5 class="card-title">Lurah</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card shadow-sm mb-4">
+                        <div class="card-body">
+                            <h5 class="card-title">Sekretaris</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card shadow-sm mb-4">
+                        <div class="card-body">
+                            <h5 class="card-title">Kasi Pelayanan</h5>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <!-- Footer -->
+    <footer id="footer" class="footer custom-footer">
+        <div class="container footer-top">
+            <div class="row gy-4">
+                <div class="col-lg-4 col-md-6 footer-about">
+                    <a href="#" class="d-flex align-items-center">
+                        <img src="assets/l1.png" style="width: 50px; height: auto;" alt="Logo" class="logo" />
+                        <span class="sitename text-white"> Kampungdalem</span>
+                    </a>
+                    <div class="footer-contact pt-3">
+                        <p class="text-white">Jl. Brigjen Katamso No.17, KampungDalem, Kec. Kota, Kota Kediri, Jawa
+                            Timur 64129</p>
+                        <p class="mt-3 text-white"><strong>Telepon:</strong> <span>0354-696997</span></p>
+                        <p class="text-white"><strong>Email:</strong> <span>Kampungdalem@gmail.com</span></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container copyright text-center mt-4">
+            <p class="text-white">© <span>Copyright</span> <strong class="px-1 sitename">Kampungdalem</strong> <span>All
+                    Rights
+                    Reserved</span></p>
+            <div class="credits text-white">
+                Designed by <a href="https://www.instagram.com/kknt24.kampungdalem2025/">KKN-T UNP PGRI Kediri Kel
+                    Kampungdalem 2025</a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- <script>
+        Script untuk menambah class 'active' pada link yang diklik
+        document.querySelectorAll('.nav-link').forEach(link => {
+            link.addEventListener('click', function () {
+                document.querySelectorAll('.nav-link').forEach(item => item.classList.remove('active'));
+                this.classList.add('active');
+            });
+        });
+    </script> -->
+
+
+</body>
+
+</html>
